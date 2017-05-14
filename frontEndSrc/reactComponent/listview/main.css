@@ -1,0 +1,18 @@
+.container{
+  display: flex;
+  flex-direction:column;
+}
+.header{
+  height: 100px;
+  background: hotpink;
+}
+
+.footer{
+  height: 100px;
+  background: greenyellow;
+}
+.box{
+  height: 150px;
+  background: greenyellow;
+  border:1px solid blue;
+}

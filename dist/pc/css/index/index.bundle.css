@@ -1,0 +1,72 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  -ms-touch-action: none;
+}
+
+body,ul,li {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-size: 12px;
+  font-family: ubuntu, helvetica, arial;
+  overflow: hidden; /* this is important to prevent the whole page to bounce */
+}
+.index__container___34bhc{
+  position: relative;
+  height: 300px;
+}
+.index__wrapper___1f-cW {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  left: 0;
+  width: 100%;
+  background: #fffindex;
+  overflow: hidden;
+}
+.index__scroller___mdGe4 {
+  position: absolute;
+  z-index: 1;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}.main__container___2eEVm{
+  display: flex;
+  flex-direction:column;
+}
+.main__header___2DxtO{
+  height: 100px;
+  background: hotpink;
+}
+
+.main__footer___2NeoZ{
+  height: 100px;
+  background: greenyellow;
+}
+.main__box___3GH3G{
+  height: 150px;
+  background: yellow;
+  border:1px solid blue;
+}
