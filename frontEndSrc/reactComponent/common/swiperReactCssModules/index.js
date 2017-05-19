@@ -1,6 +1,6 @@
-import React from "react";
-import style from "./index.css";
-import Swiper from "./swiper";
+var React = require('react');
+var style = require("./index.css");
+var Swiper = require("./swiper");
 
 var SwiperComp = React.createClass({
   render: function() {
